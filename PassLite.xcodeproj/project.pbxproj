@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BA120C725379617001561D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA120C625379617001561D2 /* AppDelegate.swift */; };
+		4BA120C925379617001561D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA120C825379617001561D2 /* ContentView.swift */; };
+		4BA120CC25379617001561D2 /* PassLite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BA120CA25379617001561D2 /* PassLite.xcdatamodeld */; };
+		4BA120CE25379618001561D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA120CD25379618001561D2 /* Assets.xcassets */; };
+		4BA120D125379618001561D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA120D025379618001561D2 /* Preview Assets.xcassets */; };
+		4BA120D425379618001561D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA120D225379618001561D2 /* Main.storyboard */; };
+		4BA120E025379618001561D2 /* PassLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA120DF25379618001561D2 /* PassLiteTests.swift */; };
+		4BA120EB25379618001561D2 /* PassLiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA120EA25379618001561D2 /* PassLiteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BA120DC25379618001561D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BA120BB25379617001561D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BA120C225379617001561D2;
+			remoteInfo = PassLite;
+		};
+		4BA120E725379618001561D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BA120BB25379617001561D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BA120C225379617001561D2;
+			remoteInfo = PassLite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BA120C325379617001561D2 /* PassLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA120C625379617001561D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BA120C825379617001561D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4BA120CB25379617001561D2 /* PassLite.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PassLite.xcdatamodel; sourceTree = "<group>"; };
+		4BA120CD25379618001561D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BA120D025379618001561D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BA120D325379618001561D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BA120D525379618001561D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BA120D625379618001561D2 /* PassLite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PassLite.entitlements; sourceTree = "<group>"; };
+		4BA120DB25379618001561D2 /* PassLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA120DF25379618001561D2 /* PassLiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassLiteTests.swift; sourceTree = "<group>"; };
+		4BA120E125379618001561D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BA120E625379618001561D2 /* PassLiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassLiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA120EA25379618001561D2 /* PassLiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassLiteUITests.swift; sourceTree = "<group>"; };
+		4BA120EC25379618001561D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BA120C025379617001561D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BA120D825379618001561D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BA120E325379618001561D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BA120BA25379617001561D2 = {
+			isa = PBXGroup;
+			children = (
+				4BA120C525379617001561D2 /* PassLite */,
+				4BA120DE25379618001561D2 /* PassLiteTests */,
+				4BA120E925379618001561D2 /* PassLiteUITests */,
+				4BA120C425379617001561D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BA120C425379617001561D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BA120C325379617001561D2 /* PassLite.app */,
+				4BA120DB25379618001561D2 /* PassLiteTests.xctest */,
+				4BA120E625379618001561D2 /* PassLiteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BA120C525379617001561D2 /* PassLite */ = {
+			isa = PBXGroup;
+			children = (
+				4BA120C625379617001561D2 /* AppDelegate.swift */,
+				4BA120C825379617001561D2 /* ContentView.swift */,
+				4BA120CD25379618001561D2 /* Assets.xcassets */,
+				4BA120D225379618001561D2 /* Main.storyboard */,
+				4BA120D525379618001561D2 /* Info.plist */,
+				4BA120D625379618001561D2 /* PassLite.entitlements */,
+				4BA120CA25379617001561D2 /* PassLite.xcdatamodeld */,
+				4BA120CF25379618001561D2 /* Preview Content */,
+			);
+			path = PassLite;
+			sourceTree = "<group>";
+		};
+		4BA120CF25379618001561D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4BA120D025379618001561D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BA120DE25379618001561D2 /* PassLiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BA120DF25379618001561D2 /* PassLiteTests.swift */,
+				4BA120E125379618001561D2 /* Info.plist */,
+			);
+			path = PassLiteTests;
+			sourceTree = "<group>";
+		};
+		4BA120E925379618001561D2 /* PassLiteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BA120EA25379618001561D2 /* PassLiteUITests.swift */,
+				4BA120EC25379618001561D2 /* Info.plist */,
+			);
+			path = PassLiteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BA120C225379617001561D2 /* PassLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BA120EF25379618001561D2 /* Build configuration list for PBXNativeTarget "PassLite" */;
+			buildPhases = (
+				4BA120BF25379617001561D2 /* Sources */,
+				4BA120C025379617001561D2 /* Frameworks */,
+				4BA120C125379617001561D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassLite;
+			productName = PassLite;
+			productReference = 4BA120C325379617001561D2 /* PassLite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BA120DA25379618001561D2 /* PassLiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BA120F225379618001561D2 /* Build configuration list for PBXNativeTarget "PassLiteTests" */;
+			buildPhases = (
+				4BA120D725379618001561D2 /* Sources */,
+				4BA120D825379618001561D2 /* Frameworks */,
+				4BA120D925379618001561D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BA120DD25379618001561D2 /* PBXTargetDependency */,
+			);
+			name = PassLiteTests;
+			productName = PassLiteTests;
+			productReference = 4BA120DB25379618001561D2 /* PassLiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BA120E525379618001561D2 /* PassLiteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BA120F525379618001561D2 /* Build configuration list for PBXNativeTarget "PassLiteUITests" */;
+			buildPhases = (
+				4BA120E225379618001561D2 /* Sources */,
+				4BA120E325379618001561D2 /* Frameworks */,
+				4BA120E425379618001561D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BA120E825379618001561D2 /* PBXTargetDependency */,
+			);
+			name = PassLiteUITests;
+			productName = PassLiteUITests;
+			productReference = 4BA120E625379618001561D2 /* PassLiteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BA120BB25379617001561D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					4BA120C225379617001561D2 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					4BA120DA25379618001561D2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 4BA120C225379617001561D2;
+					};
+					4BA120E525379618001561D2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 4BA120C225379617001561D2;
+					};
+				};
+			};
+			buildConfigurationList = 4BA120BE25379617001561D2 /* Build configuration list for PBXProject "PassLite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BA120BA25379617001561D2;
+			productRefGroup = 4BA120C425379617001561D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BA120C225379617001561D2 /* PassLite */,
+				4BA120DA25379618001561D2 /* PassLiteTests */,
+				4BA120E525379618001561D2 /* PassLiteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BA120C125379617001561D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA120D425379618001561D2 /* Main.storyboard in Resources */,
+				4BA120D125379618001561D2 /* Preview Assets.xcassets in Resources */,
+				4BA120CE25379618001561D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BA120D925379618001561D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BA120E425379618001561D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BA120BF25379617001561D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA120C925379617001561D2 /* ContentView.swift in Sources */,
+				4BA120C725379617001561D2 /* AppDelegate.swift in Sources */,
+				4BA120CC25379617001561D2 /* PassLite.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BA120D725379618001561D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA120E025379618001561D2 /* PassLiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BA120E225379618001561D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA120EB25379618001561D2 /* PassLiteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BA120DD25379618001561D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BA120C225379617001561D2 /* PassLite */;
+			targetProxy = 4BA120DC25379618001561D2 /* PBXContainerItemProxy */;
+		};
+		4BA120E825379618001561D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BA120C225379617001561D2 /* PassLite */;
+			targetProxy = 4BA120E725379618001561D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BA120D225379618001561D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BA120D325379618001561D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BA120ED25379618001561D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BA120EE25379618001561D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4BA120F025379618001561D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PassLite/PassLite.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"PassLite/Preview Content\"";
+				DEVELOPMENT_TEAM = Q2N8L37H44;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PassLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddax2.PassLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4BA120F125379618001561D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PassLite/PassLite.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"PassLite/Preview Content\"";
+				DEVELOPMENT_TEAM = Q2N8L37H44;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PassLite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddax2.PassLite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4BA120F325379618001561D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q2N8L37H44;
+				INFOPLIST_FILE = PassLiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddax2.PassLiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassLite.app/Contents/MacOS/PassLite";
+			};
+			name = Debug;
+		};
+		4BA120F425379618001561D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q2N8L37H44;
+				INFOPLIST_FILE = PassLiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddax2.PassLiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassLite.app/Contents/MacOS/PassLite";
+			};
+			name = Release;
+		};
+		4BA120F625379618001561D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q2N8L37H44;
+				INFOPLIST_FILE = PassLiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddax2.PassLiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PassLite;
+			};
+			name = Debug;
+		};
+		4BA120F725379618001561D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q2N8L37H44;
+				INFOPLIST_FILE = PassLiteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddax2.PassLiteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PassLite;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BA120BE25379617001561D2 /* Build configuration list for PBXProject "PassLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA120ED25379618001561D2 /* Debug */,
+				4BA120EE25379618001561D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BA120EF25379618001561D2 /* Build configuration list for PBXNativeTarget "PassLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA120F025379618001561D2 /* Debug */,
+				4BA120F125379618001561D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BA120F225379618001561D2 /* Build configuration list for PBXNativeTarget "PassLiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA120F325379618001561D2 /* Debug */,
+				4BA120F425379618001561D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BA120F525379618001561D2 /* Build configuration list for PBXNativeTarget "PassLiteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA120F625379618001561D2 /* Debug */,
+				4BA120F725379618001561D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4BA120CA25379617001561D2 /* PassLite.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4BA120CB25379617001561D2 /* PassLite.xcdatamodel */,
+			);
+			currentVersion = 4BA120CB25379617001561D2 /* PassLite.xcdatamodel */;
+			path = PassLite.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4BA120BB25379617001561D2 /* Project object */;
+}
