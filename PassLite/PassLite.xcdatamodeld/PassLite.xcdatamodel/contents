@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="true" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17507" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="SecuredEntity" representedClassName="SecuredEntity" syncable="YES">
+        <attribute name="date" attributeType="Date" defaultDateTimeInterval="624739140" usesScalarValueType="NO"/>
+        <attribute name="id" attributeType="String" defaultValueString="default"/>
+        <attribute name="name" attributeType="String" defaultValueString="New Record"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="SecuredEntity" positionX="-63" positionY="-18" width="128" height="118"/>
+    </elements>
 </model>

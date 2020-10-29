@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B7EFB85253999360028CBCA /* AddNewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7EFB84253999360028CBCA /* AddNewItemView.swift */; };
+		4B7EFB8F253CC4850028CBCA /* SecuredEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7EFB8D253CC4850028CBCA /* SecuredEntity+CoreDataProperties.swift */; };
 		4BA120C725379617001561D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA120C625379617001561D2 /* AppDelegate.swift */; };
 		4BA120C925379617001561D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA120C825379617001561D2 /* ContentView.swift */; };
 		4BA120CC25379617001561D2 /* PassLite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BA120CA25379617001561D2 /* PassLite.xcdatamodeld */; };
@@ -15,6 +17,8 @@
 		4BA120D425379618001561D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA120D225379618001561D2 /* Main.storyboard */; };
 		4BA120E025379618001561D2 /* PassLiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA120DF25379618001561D2 /* PassLiteTests.swift */; };
 		4BA120EB25379618001561D2 /* PassLiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA120EA25379618001561D2 /* PassLiteUITests.swift */; };
+		4BA120FD25379629001561D2 /* PassphraseGenerator in Frameworks */ = {isa = PBXBuildFile; productRef = 4BA120FC25379629001561D2 /* PassphraseGenerator */; };
+		4BA543AE254A1CEF0083BCA9 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4BA543AD254A1CEF0083BCA9 /* KeychainSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B7EFB84253999360028CBCA /* AddNewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemView.swift; sourceTree = "<group>"; };
+		4B7EFB8D253CC4850028CBCA /* SecuredEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SecuredEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4BA120C325379617001561D2 /* PassLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA120C625379617001561D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BA120C825379617001561D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA543AE254A1CEF0083BCA9 /* KeychainSwift in Frameworks */,
+				4BA120FD25379629001561D2 /* PassphraseGenerator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +108,10 @@
 		4BA120C525379617001561D2 /* PassLite */ = {
 			isa = PBXGroup;
 			children = (
+				4B7EFB8D253CC4850028CBCA /* SecuredEntity+CoreDataProperties.swift */,
 				4BA120C625379617001561D2 /* AppDelegate.swift */,
 				4BA120C825379617001561D2 /* ContentView.swift */,
+				4B7EFB84253999360028CBCA /* AddNewItemView.swift */,
 				4BA120CD25379618001561D2 /* Assets.xcassets */,
 				4BA120D225379618001561D2 /* Main.storyboard */,
 				4BA120D525379618001561D2 /* Info.plist */,
@@ -154,6 +164,10 @@
 			dependencies = (
 			);
 			name = PassLite;
+			packageProductDependencies = (
+				4BA120FC25379629001561D2 /* PassphraseGenerator */,
+				4BA543AD254A1CEF0083BCA9 /* KeychainSwift */,
+			);
 			productName = PassLite;
 			productReference = 4BA120C325379617001561D2 /* PassLite.app */;
 			productType = "com.apple.product-type.application";
@@ -225,6 +239,10 @@
 				Base,
 			);
 			mainGroup = 4BA120BA25379617001561D2;
+			packageReferences = (
+				4BA120FB25379629001561D2 /* XCRemoteSwiftPackageReference "PassphraseGenerator" */,
+				4BA543AC254A1CEF0083BCA9 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
 			productRefGroup = 4BA120C425379617001561D2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -268,7 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B7EFB85253999360028CBCA /* AddNewItemView.swift in Sources */,
 				4BA120C925379617001561D2 /* ContentView.swift in Sources */,
+				4B7EFB8F253CC4850028CBCA /* SecuredEntity+CoreDataProperties.swift in Sources */,
 				4BA120C725379617001561D2 /* AppDelegate.swift in Sources */,
 				4BA120CC25379617001561D2 /* PassLite.xcdatamodeld in Sources */,
 			);
@@ -604,6 +624,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4BA120FB25379629001561D2 /* XCRemoteSwiftPackageReference "PassphraseGenerator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/buddax2/PassphraseGenerator.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		4BA543AC254A1CEF0083BCA9 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 19.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4BA120FC25379629001561D2 /* PassphraseGenerator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4BA120FB25379629001561D2 /* XCRemoteSwiftPackageReference "PassphraseGenerator" */;
+			productName = PassphraseGenerator;
+		};
+		4BA543AD254A1CEF0083BCA9 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4BA543AC254A1CEF0083BCA9 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		4BA120CA25379617001561D2 /* PassLite.xcdatamodeld */ = {
